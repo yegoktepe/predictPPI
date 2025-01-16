@@ -20,10 +20,10 @@ Pandas
 Scikit-learn
 TensorFlow
 Data Loading
-interactions = pd.read_csv("interactions.csv")
-sequences = pd.read_csv("seqsHel2.csv")
+interactions = pd.read_csv("interactionsfile.csv")
+sequences = pd.read_csv("seqsfile.csv")
 aaindex = pd.read_csv("aaindex.csv", header=None)
-Data is loaded from interactions.csv, seqsHel2.csv, and aaindex.csv files.
+Data is loaded from interactionsfile.csv, seqsfile.csv, and aaindex.csv files.
 
 Amino Acid Index Verification
 expected_rows = 20
