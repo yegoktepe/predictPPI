@@ -1,3 +1,5 @@
-Data; veri tabanı dosyalarının bulunduğu klasördür. AAindex dosyası, amino asit fizikokimyasal özellikleri, ikame matrisleri ve istatistiksel protein temas potansiyellerini içeren bir veritabanıdır. https://www.genome.jp/aaindex/ sitesinden açık kaynak olarak ulaşılabilmektedir.
-seqs dosyası biyolojik organizmaya özel protein sekanslarını listelemektedir. 
-pairs dosyası ise biyolojik organizmaya özel etkileşim verilerini içermektedir. 
+Data; is the folder where the database files are located. The AAindex file is a database containing amino acid physicochemical properties, substitution matrices and statistical protein contact potentials. It can be accessed as an open source from the https://www.genome.jp/aaindex/ website.
+
+The seqs file lists protein sequences specific to the biological organism.
+
+The pairs file contains interaction data specific to the biological organism.
