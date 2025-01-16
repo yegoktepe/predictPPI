@@ -11,8 +11,8 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 
 # Load data
-interactions = pd.read_csv("interactions.csv")
-sequences = pd.read_csv("seqsHel2.csv")
+interactions = pd.read_csv("interactionsfile.csv")
+sequences = pd.read_csv("seqsfile.csv")
 aaindex = pd.read_csv("aaindex.csv", header=None)
 
 # Verify the number of rows in aaindex
