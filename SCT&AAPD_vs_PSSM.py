@@ -39,8 +39,10 @@ def calculate_aapd(sequence):
     return np.mean(distances) if distances else 0
 
 # Dataset Loading
-interactions = pd.read_csv("interactions.csv")
-sequences = pd.read_csv("seqsHel2.csv")
+interactions = pd.read_csv("interactionsfile.csv")
+sequences = pd.read_csv("seqsfile.csv")
+aaindex = pd.read_csv("aaindex.csv", header=None)
+
 data = interactions.merge(sequences, left_on="protein1", right_on="protein_code", how="left").merge(
     sequences, left_on="protein2", right_on="protein_code", suffixes=("_1", "_2"), how="left"
 ).dropna()
