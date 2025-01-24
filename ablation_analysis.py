@@ -9,8 +9,8 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping
 
 # Verileri yükleme
-interactions = pd.read_csv("interactions.csv")
-sequences = pd.read_csv("seqsHel2.csv")
+interactions = pd.read_csv("interactionsfile.csv")
+sequences = pd.read_csv("seqsfile.csv")
 aaindex = pd.read_csv("aaindex.csv", header=None)
 
 # AAindex kontrol
